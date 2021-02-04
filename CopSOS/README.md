@@ -1,6 +1,6 @@
 # CopSOS
 
-Apk Download: https://github.com/nirajwagh/CopSOS/raw/master/Apk%20Download/Cop%20Sos.apk
+Apk Download: https://github.com/nirajwagh/Public-Emergency-Safety-System/raw/main/CopSOS/Apk%20Download/Cop%20Sos.apk
 
 A SOS Cop demo app for accepting the complaint by the cop.
 
