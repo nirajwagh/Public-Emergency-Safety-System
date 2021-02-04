@@ -114,9 +114,9 @@ Firebase realtime database is used for Live location service.
   </table>
   
   
-  # Instructions
-  
-  ERROR #1
+  COP SOS
+
+ERROR #1
 
 		A problem occurred evaluating project ':app'.
 		> C:\...\apikey.properties (The system cannot find the file specified)
@@ -134,27 +134,46 @@ ERROR #2
 		Execution failed for task ':app:processDebugGoogleServices'.
 		> File google-services.json is missing. The Google Services Plugin cannot function without it. 
  	
-
+(Ignore step 1,2 if already done with the SOS app)
  1. Create a google firebase account.
  2. Login the Android studio using the same google account used for Firebase in step 1.
  3. In android studio, go to Tools -> Firebase. Now Firebase assistant will open.
- 4. Go to Authentication and click on "connect to Firebase"
- 5. This will redirect you to your browser and will open the Firebase console.
- 6. Create a new project and connect your android project to this Firebase console project.
+ 4. Select "authentication using a custom authentication system".
+ 5. Click on "Connect to Firebase". This will redirect you to your browser and will open the Firebase console.
+ 6. Now, if you have already created Firebase project for the SOS app, then choose that project in the Firebase console. 
+ Else if this is your first project then Create a new project and connect your android project to this Firebase console project.
 
 
 Enable Firebase Realtime Database.
 
-1. In android studio, open Firebase assistant and under "Realtime Database", select "Get started with realtime database".
+(Ignore step 1,2,3,4 if already done with the SOS app)
 1. Go to your Firebase Console and under Realtime Database, select "create Database".
 2. Choose Database location and under "Security Rules" select "start in test mode".
-. 
+3. Download the "realtimeDbData.json" file from the project repository.
+4. Under Firebase realtime database section, click on the three dots and import the JSON file by choosing the "import JSON" option. 
+5. In android studio, open Firebase assistant and under "Realtime Database", select "Get started with realtime database". 
+6. Select "Add the Realtime Database SDK to your app". Click on "accept changes" in the dialog box.
+
 
 Register and Login users using Firebase Authentiaction
 
-1. In android studio, open Firebase assistant and select "authentication using a custom authentication system".
-2. Then select the "Add the Firebase Authentication SDK to your app"
+(Ignore step 1,2,3 if already done with the SOS app)
 1. Go to your Firebase console and choose your project.
 2. Select Authentication and enable it.
 3. Under Autentication -> Sign-in method, enable the "Email/Password" and "Phone" method.
+4. In android studio, open Firebase assistant and select "authentication using a custom authentication system".
+5. Then select the "Add the Firebase Authentication SDK to your app". Click on "accept changes" in the dialog box.
 
+
+Uploading Profile images and other images.
+
+(Ignore step 1,2,3 if already done with the SOS app)
+1. Go to firebase console and under "storage" click on "get started".
+2. Click "next" and choose a location for the cloud server.
+3. Now you will be able to store images on the Firebase cloud service.
+4. Go to "profile" section in the app and try uploading profile pic.
+
+Adding Google Maps API KEY
+
+1. Go To "/app/src/debug/res/values/google_maps_api.xml" and replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with you API Key.
+2. Go To "/app/src/release/res/values/google_maps_api.xml" and replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with you API Key.
