@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3DFDF"
+        tools:context=".Request">
+
+        <TextView
+            android:id="@+id/txt_sos_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/g"
+            android:text="SOS Request"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_gps"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_square"
+            android:capitalize="sentences"
+            android:fontFamily="@font/m"
+            android:inputType="textCapSentences"
+            android:maxWidth="160dp"
+            android:onClick="allowGpsButtonClicked"
+            android:text="Allow GPS"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_sos"
+            android:layout_width="198dp"
+            android:layout_height="187dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_round"
+            android:elevation="15dp"
+            android:fontFamily="@font/mblack"
+            android:onClick="sosRequest"
+            android:text="SOS "
+            android:textColor="#FFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_allow_gps"
+            android:layout_width="198dp"
+            android:layout_height="187dp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="gps1.json"
+            app:lottie_loop="true"
+
+            />
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim_gps"
+            android:layout_width="303dp"
+            android:layout_height="351dp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="gps2.json"
+            app:lottie_loop="true"
+
+            />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:capitalize="sentences"
+            android:fontFamily="@font/m"
+            android:inputType="textCapSentences"
+            android:onClick="cancelRequest"
+            android:text="Cancel Request"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/txt_cop_found"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:textColor="#12B8A8"-->
+        <!--        android:textSize="24sp"-->
+        <!--        -->
+        <!--         />-->
+
+        <Button
+            android:id="@+id/btn_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_sos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_square"
+            android:capitalize="sentences"
+            android:fontFamily="@font/m"
+            android:inputType="textCapSentences"
+            android:onClick="enableGpsButtonPressed"
+            android:text="Enable GPS"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:onClick="openMenu"
+            android:src="@drawable/menu_icon" />
+
+        <TextView
+            android:id="@+id/txt_searching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/anim_gps"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/h"
+            android:text="Searching A Cop For You"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_bar"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#AF2119"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu"
+
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

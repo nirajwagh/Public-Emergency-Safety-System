@@ -1,0 +1,797 @@
+{
+  "actors" : {
+    "admins" : {
+      "9snV7N1m2BSQvfNr2wgpAYepDUK2" : {
+        "cop_id" : "ID154215",
+        "email_id" : "admin2@gmail.com",
+        "name" : "raj",
+        "phone" : 2145684565,
+        "police_station" : "Kasba Peth Police Station"
+      },
+      "KQa1L43KdWZazrO8xYjaMbgH2DW2" : {
+        "cop_id" : "ID54195",
+        "email_id" : "admin1@abc.com",
+        "name" : "Rajesh P",
+        "phone" : 8451657489,
+        "police_station" : "Alandi Police Station"
+      }
+    },
+    "citizens" : {
+      "CPje7GrVVhZX4N5sasY56ccemOD3" : {
+        "complaints" : {
+          "357769" : {
+            "complaint_create_date" : "2021/02/02",
+            "complaint_create_time" : "15:39:17",
+            "complaint_id" : "357769",
+            "complaint_solved_date" : "2021/02/02",
+            "complaint_solved_time" : "15:57:39",
+            "cop_id" : "qwert",
+            "cop_image_url" : "https://firebasestorage.googleapis.com/v0/b/mcoe-be-project-253207.appspot.com/o/profile_images%2Fm0yNWHubAIcBztSFO3v072OQ38J3?alt=media&token=f5514408-6ea1-4555-9e92-23a5a24ba932",
+            "cop_name" : "cop1",
+            "cop_phone" : "8888007943",
+            "cop_uid" : "m0yNWHubAIcBztSFO3v072OQ38J3"
+          }
+        },
+        "email" : "cit1@abc.com",
+        "name" : "cit1",
+        "phone" : "8806794379",
+        "profile_image_url" : "https://firebasestorage.googleapis.com/v0/b/mcoe-be-project-253207.appspot.com/o/profile_images%2FCPje7GrVVhZX4N5sasY56ccemOD3?alt=media&token=cca1c910-eca9-4204-90de-9652f9bb0ec3"
+      }
+    },
+    "cops" : {
+      "m0yNWHubAIcBztSFO3v072OQ38J3" : {
+        "email" : "cop1@abc.com",
+        "id" : "qwert",
+        "name" : "cop1",
+        "phone" : "8888007943",
+        "profile_image_url" : "https://firebasestorage.googleapis.com/v0/b/mcoe-be-project-253207.appspot.com/o/profile_images%2Fm0yNWHubAIcBztSFO3v072OQ38J3?alt=media&token=f5514408-6ea1-4555-9e92-23a5a24ba932"
+      }
+    }
+  },
+  "completed_complaints" : {
+    "10010" : {
+      "complaint_create_loc_lat" : 18.60079608,
+      "complaint_create_loc_lng" : 73.7937986
+    },
+    "020005" : {
+      "complaint_create_loc_lat" : 18.59551064,
+      "complaint_create_loc_lng" : 73.80371069
+    },
+    "40002" : {
+      "complaint_create_loc_lat" : 18.49868507,
+      "complaint_create_loc_lng" : 73.85025232
+    },
+    "100001" : {
+      "complaint_create_loc_lat" : 18.46331805,
+      "complaint_create_loc_lng" : 73.83970967
+    },
+    "100002" : {
+      "complaint_create_loc_lat" : 18.59048901,
+      "complaint_create_loc_lng" : 73.79118514
+    },
+    "100003" : {
+      "complaint_create_loc_lat" : 18.60621624,
+      "complaint_create_loc_lng" : 73.78644176
+    },
+    "100004" : {
+      "complaint_create_loc_lat" : 18.59421908,
+      "complaint_create_loc_lng" : 73.78732198
+    },
+    "100005" : {
+      "complaint_create_loc_lat" : 18.592266,
+      "complaint_create_loc_lng" : 73.79111335
+    },
+    "100006" : {
+      "complaint_create_loc_lat" : 18.59154518,
+      "complaint_create_loc_lng" : 73.79269274
+    },
+    "100007" : {
+      "complaint_create_loc_lat" : 18.59488774,
+      "complaint_create_loc_lng" : 73.7908254
+    },
+    "100008" : {
+      "complaint_create_loc_lat" : 18.60069535,
+      "complaint_create_loc_lng" : 73.79451757
+    },
+    "100009" : {
+      "complaint_create_loc_lat" : 18.58912888,
+      "complaint_create_loc_lng" : 73.79174079
+    },
+    "100011" : {
+      "complaint_create_loc_lat" : 18.60401795,
+      "complaint_create_loc_lng" : 73.79376546
+    },
+    "200001" : {
+      "complaint_create_loc_lat" : 18.59881677,
+      "complaint_create_loc_lng" : 73.80253387
+    },
+    "200002" : {
+      "complaint_create_loc_lat" : 18.59737057,
+      "complaint_create_loc_lng" : 73.80147679
+    },
+    "200003" : {
+      "complaint_create_loc_lat" : 18.60678806,
+      "complaint_create_loc_lng" : 73.79631718
+    },
+    "200004" : {
+      "complaint_create_loc_lat" : 18.60487616,
+      "complaint_create_loc_lng" : 73.79676155
+    },
+    "200005" : {
+      "complaint_create_loc_lat" : 18.59247852,
+      "complaint_create_loc_lng" : 73.79706825
+    },
+    "200006" : {
+      "complaint_create_loc_lat" : 18.5992758,
+      "complaint_create_loc_lng" : 73.78425941
+    },
+    "200007" : {
+      "complaint_create_loc_lat" : 18.5967084,
+      "complaint_create_loc_lng" : 73.79725999
+    },
+    "200008" : {
+      "complaint_create_loc_lat" : 18.6037378,
+      "complaint_create_loc_lng" : 73.79493254
+    },
+    "200009" : {
+      "complaint_create_loc_lat" : 18.60730033,
+      "complaint_create_loc_lng" : 73.79996554
+    },
+    "241067" : {
+      "Citizen_uid" : "CPje7GrVVhZX4N5sasY56ccemOD3",
+      "assigned_cop_ID" : "m0yNWHubAIcBztSFO3v072OQ38J3",
+      "complaint_create_date" : "2020/06/02",
+      "complaint_create_loc_lat" : 18.522755699338408,
+      "complaint_create_loc_lng" : 73.8481225189443,
+      "complaint_create_time" : "17:58:16",
+      "complaint_id" : 241067,
+      "complaint_solved_date" : "2020/06/02",
+      "complaint_solved_loc_lng" : 18.5227367,
+      "complaint_solved_loc_lon" : 73.848095,
+      "complaint_solved_time" : "18:06:21"
+    },
+    "300001" : {
+      "complaint_create_loc_lat" : 18.60567205,
+      "complaint_create_loc_lng" : 73.79715303
+    },
+    "300002" : {
+      "complaint_create_loc_lat" : 18.59465229,
+      "complaint_create_loc_lng" : 73.80038798
+    },
+    "300003" : {
+      "complaint_create_loc_lat" : 18.60213405,
+      "complaint_create_loc_lng" : 73.79657173
+    },
+    "300004" : {
+      "complaint_create_loc_lat" : 18.59844638,
+      "complaint_create_loc_lng" : 73.79919019
+    },
+    "300005" : {
+      "complaint_create_loc_lat" : 18.59670469,
+      "complaint_create_loc_lng" : 73.79230775
+    },
+    "300006" : {
+      "complaint_create_loc_lat" : 18.60632167,
+      "complaint_create_loc_lng" : 73.78899892
+    },
+    "300007" : {
+      "complaint_create_loc_lat" : 18.59772029,
+      "complaint_create_loc_lng" : 73.79818413
+    },
+    "357769" : {
+      "Citizen_uid" : "CPje7GrVVhZX4N5sasY56ccemOD3",
+      "assigned_cop_ID" : "m0yNWHubAIcBztSFO3v072OQ38J3",
+      "complaint_create_date" : "2021/02/02",
+      "complaint_create_loc_lat" : 18.561097523980557,
+      "complaint_create_loc_lng" : 73.84423152746126,
+      "complaint_create_time" : "15:39:17",
+      "complaint_id" : 357769,
+      "complaint_solved_date" : "2021/02/02",
+      "complaint_solved_loc_lng" : 18.5129367,
+      "complaint_solved_loc_lon" : 73.8436983,
+      "complaint_solved_time" : "15:57:39"
+    },
+    "388311" : {
+      "Citizen_uid" : "JdF75vxHRgalbgwyVuSx2TP5Mb43",
+      "assigned_cop_ID" : "0UkqlxuyYihjolqezfCQkcCmY4j2",
+      "complaint_create_date" : "2020/07/27",
+      "complaint_create_loc_lat" : 18.5888208,
+      "complaint_create_loc_lng" : 73.8629679,
+      "complaint_create_time" : "13:58:59",
+      "complaint_id" : 388311,
+      "complaint_solved_date" : "2020/07/27",
+      "complaint_solved_loc_lng" : 18.5888218,
+      "complaint_solved_loc_lon" : 73.8629677,
+      "complaint_solved_time" : "14:00:19"
+    },
+    "400001" : {
+      "complaint_create_loc_lat" : 18.47779291,
+      "complaint_create_loc_lng" : 73.89785131
+    },
+    "400003" : {
+      "complaint_create_loc_lat" : 18.46373677,
+      "complaint_create_loc_lng" : 73.83923698
+    },
+    "400005" : {
+      "complaint_create_loc_lat" : 18.51161724,
+      "complaint_create_loc_lng" : 73.84173437
+    },
+    "400006" : {
+      "complaint_create_loc_lat" : 18.5340471,
+      "complaint_create_loc_lng" : 73.84768798
+    },
+    "400007" : {
+      "complaint_create_loc_lat" : 18.61726513,
+      "complaint_create_loc_lng" : 73.84380614
+    },
+    "400009" : {
+      "complaint_create_loc_lat" : 18.53275598,
+      "complaint_create_loc_lng" : 73.91731406
+    },
+    "400010" : {
+      "complaint_create_loc_lat" : 18.5786497,
+      "complaint_create_loc_lng" : 73.82726423
+    },
+    "400012" : {
+      "complaint_create_loc_lat" : 18.47765035,
+      "complaint_create_loc_lng" : 73.7968737
+    },
+    "400013" : {
+      "complaint_create_loc_lat" : 18.49255639,
+      "complaint_create_loc_lng" : 73.91238138
+    },
+    "400014" : {
+      "complaint_create_loc_lat" : 18.55619299,
+      "complaint_create_loc_lng" : 73.79378684
+    },
+    "400015" : {
+      "complaint_create_loc_lat" : 18.57899486,
+      "complaint_create_loc_lng" : 73.93161792
+    },
+    "400016" : {
+      "complaint_create_loc_lat" : 18.54969637,
+      "complaint_create_loc_lng" : 73.77846318
+    },
+    "400017" : {
+      "complaint_create_loc_lat" : 18.56249617,
+      "complaint_create_loc_lng" : 73.80634477
+    },
+    "400018" : {
+      "complaint_create_loc_lat" : 18.52010839,
+      "complaint_create_loc_lng" : 73.91543533
+    },
+    "400019" : {
+      "complaint_create_loc_lat" : 18.52710098,
+      "complaint_create_loc_lng" : 73.7822693
+    },
+    "400020" : {
+      "complaint_create_loc_lat" : 18.50899069,
+      "complaint_create_loc_lng" : 73.80987408
+    },
+    "400021" : {
+      "complaint_create_loc_lat" : 18.59882224,
+      "complaint_create_loc_lng" : 73.85313842
+    },
+    "400022" : {
+      "complaint_create_loc_lat" : 18.52355118,
+      "complaint_create_loc_lng" : 73.77907119
+    },
+    "400023" : {
+      "complaint_create_loc_lat" : 18.5827855,
+      "complaint_create_loc_lng" : 73.91283944
+    },
+    "400024" : {
+      "complaint_create_loc_lat" : 18.46594336,
+      "complaint_create_loc_lng" : 73.88551537
+    },
+    "400025" : {
+      "complaint_create_loc_lat" : 18.49947451,
+      "complaint_create_loc_lng" : 73.77420085
+    },
+    "400026" : {
+      "complaint_create_loc_lat" : 18.49410993,
+      "complaint_create_loc_lng" : 73.89255727
+    },
+    "400027" : {
+      "complaint_create_loc_lat" : 18.56661509,
+      "complaint_create_loc_lng" : 73.84354001
+    },
+    "400028" : {
+      "complaint_create_loc_lat" : 18.5799365,
+      "complaint_create_loc_lng" : 73.87210213
+    },
+    "400029" : {
+      "complaint_create_loc_lat" : 18.50843217,
+      "complaint_create_loc_lng" : 73.82094163
+    },
+    "400030" : {
+      "complaint_create_loc_lat" : 18.48548765,
+      "complaint_create_loc_lng" : 73.89177254
+    },
+    "400031" : {
+      "complaint_create_loc_lat" : 18.56067148,
+      "complaint_create_loc_lng" : 73.76593036
+    },
+    "400032" : {
+      "complaint_create_loc_lat" : 18.53943095,
+      "complaint_create_loc_lng" : 73.79095678
+    },
+    "400033" : {
+      "complaint_create_loc_lat" : 18.55979595,
+      "complaint_create_loc_lng" : 73.87047755
+    },
+    "400034" : {
+      "complaint_create_loc_lat" : 18.54222598,
+      "complaint_create_loc_lng" : 73.90835872
+    },
+    "400035" : {
+      "complaint_create_loc_lat" : 18.45293729,
+      "complaint_create_loc_lng" : 73.88188358
+    },
+    "400036" : {
+      "complaint_create_loc_lat" : 18.58343851,
+      "complaint_create_loc_lng" : 73.90341165
+    },
+    "400037" : {
+      "complaint_create_loc_lat" : 18.50479452,
+      "complaint_create_loc_lng" : 73.88113449
+    },
+    "400038" : {
+      "complaint_create_loc_lat" : 18.57340678,
+      "complaint_create_loc_lng" : 73.92184188
+    },
+    "400039" : {
+      "complaint_create_loc_lat" : 18.4938404,
+      "complaint_create_loc_lng" : 73.85079933
+    },
+    "400040" : {
+      "complaint_create_loc_lat" : 18.46901297,
+      "complaint_create_loc_lng" : 73.79411887
+    },
+    "400041" : {
+      "complaint_create_loc_lat" : 18.61503866,
+      "complaint_create_loc_lng" : 73.85644768
+    },
+    "400042" : {
+      "complaint_create_loc_lat" : 18.51339575,
+      "complaint_create_loc_lng" : 73.78526776
+    },
+    "400043" : {
+      "complaint_create_loc_lat" : 18.59101801,
+      "complaint_create_loc_lng" : 73.87186654
+    },
+    "400044" : {
+      "complaint_create_loc_lat" : 18.49913993,
+      "complaint_create_loc_lng" : 73.85864715
+    },
+    "400045" : {
+      "complaint_create_loc_lat" : 18.50913923,
+      "complaint_create_loc_lng" : 73.87860875
+    },
+    "400046" : {
+      "complaint_create_loc_lat" : 18.52627182,
+      "complaint_create_loc_lng" : 73.87714498
+    },
+    "400047" : {
+      "complaint_create_loc_lat" : 18.49831078,
+      "complaint_create_loc_lng" : 73.79531263
+    },
+    "400048" : {
+      "complaint_create_loc_lat" : 18.53004181,
+      "complaint_create_loc_lng" : 73.90561768
+    },
+    "400049" : {
+      "complaint_create_loc_lat" : 18.57386567,
+      "complaint_create_loc_lng" : 73.91165265
+    },
+    "400050" : {
+      "complaint_create_loc_lat" : 18.53616843,
+      "complaint_create_loc_lng" : 73.87245479
+    },
+    "400051" : {
+      "complaint_create_loc_lat" : 18.57636993,
+      "complaint_create_loc_lng" : 73.93096493
+    },
+    "400052" : {
+      "complaint_create_loc_lat" : 18.49360384,
+      "complaint_create_loc_lng" : 73.83015325
+    },
+    "400053" : {
+      "complaint_create_loc_lat" : 18.48032536,
+      "complaint_create_loc_lng" : 73.80388078
+    },
+    "400054" : {
+      "complaint_create_loc_lat" : 18.59922514,
+      "complaint_create_loc_lng" : 73.8225029
+    },
+    "400055" : {
+      "complaint_create_loc_lat" : 18.53512679,
+      "complaint_create_loc_lng" : 73.80880156
+    },
+    "400056" : {
+      "complaint_create_loc_lat" : 18.57224516,
+      "complaint_create_loc_lng" : 73.86687039
+    },
+    "400057" : {
+      "complaint_create_loc_lat" : 18.52413658,
+      "complaint_create_loc_lng" : 73.88657309
+    },
+    "400058" : {
+      "complaint_create_loc_lat" : 18.45373908,
+      "complaint_create_loc_lng" : 73.81861552
+    },
+    "400059" : {
+      "complaint_create_loc_lat" : 18.57636635,
+      "complaint_create_loc_lng" : 73.90271525
+    },
+    "400060" : {
+      "complaint_create_loc_lat" : 18.52317628,
+      "complaint_create_loc_lng" : 73.91389667
+    },
+    "400061" : {
+      "complaint_create_loc_lat" : 18.55564254,
+      "complaint_create_loc_lng" : 73.86222253
+    },
+    "400062" : {
+      "complaint_create_loc_lat" : 18.52317628,
+      "complaint_create_loc_lng" : 73.91389667
+    },
+    "400063" : {
+      "complaint_create_loc_lat" : 18.57224516,
+      "complaint_create_loc_lng" : 73.86687039
+    },
+    "400064" : {
+      "complaint_create_loc_lat" : 18.52317628,
+      "complaint_create_loc_lng" : 73.91389667
+    },
+    "522482" : {
+      "complaint_create_loc_lat" : 18.46115862,
+      "complaint_create_loc_lng" : 73.84199819
+    },
+    "522583" : {
+      "complaint_create_loc_lat" : 18.45066997,
+      "complaint_create_loc_lng" : 73.84528002
+    },
+    "522877" : {
+      "complaint_create_loc_lat" : 18.44524263,
+      "complaint_create_loc_lng" : 73.84549938
+    },
+    "522878" : {
+      "complaint_create_loc_lat" : 18.44566305,
+      "complaint_create_loc_lng" : 73.851418
+    },
+    "522879" : {
+      "complaint_create_loc_lat" : 18.4619906,
+      "complaint_create_loc_lng" : 73.8451428
+    },
+    "522880" : {
+      "complaint_create_loc_lat" : 18.45359031,
+      "complaint_create_loc_lng" : 73.84683373
+    },
+    "522884" : {
+      "complaint_create_loc_lat" : 18.4613307,
+      "complaint_create_loc_lng" : 73.83080582
+    },
+    "522885" : {
+      "complaint_create_loc_lat" : 18.44605823,
+      "complaint_create_loc_lng" : 73.85947282
+    },
+    "522886" : {
+      "complaint_create_loc_lat" : 18.44566644,
+      "complaint_create_loc_lng" : 73.85428229
+    },
+    "522887" : {
+      "complaint_create_loc_lat" : 18.46601687,
+      "complaint_create_loc_lng" : 73.8466369
+    },
+    "522888" : {
+      "complaint_create_loc_lat" : 18.47370174,
+      "complaint_create_loc_lng" : 73.8447844
+    },
+    "522889" : {
+      "complaint_create_loc_lat" : 18.46999416,
+      "complaint_create_loc_lng" : 73.85031848
+    },
+    "522890" : {
+      "complaint_create_loc_lat" : 18.46691403,
+      "complaint_create_loc_lng" : 73.84126954
+    },
+    "522891" : {
+      "complaint_create_loc_lat" : 18.45592613,
+      "complaint_create_loc_lng" : 73.82986049
+    },
+    "522892" : {
+      "complaint_create_loc_lat" : 18.46126808,
+      "complaint_create_loc_lng" : 73.83364954
+    },
+    "522893" : {
+      "complaint_create_loc_lat" : 18.45889364,
+      "complaint_create_loc_lng" : 73.82971078
+    },
+    "522894" : {
+      "complaint_create_loc_lat" : 18.46126808,
+      "complaint_create_loc_lng" : 73.83364954
+    },
+    "522895" : {
+      "complaint_create_loc_lat" : 18.44688461,
+      "complaint_create_loc_lng" : 73.84665833
+    },
+    "522896" : {
+      "complaint_create_loc_lat" : 18.4735924,
+      "complaint_create_loc_lng" : 73.84887413
+    },
+    "522897" : {
+      "complaint_create_loc_lat" : 18.4674302,
+      "complaint_create_loc_lng" : 73.85948685
+    },
+    "522898" : {
+      "complaint_create_loc_lat" : 18.46384211,
+      "complaint_create_loc_lng" : 73.8484066
+    },
+    "522899" : {
+      "complaint_create_loc_lat" : 18.45977966,
+      "complaint_create_loc_lng" : 73.83658955
+    },
+    "522900" : {
+      "complaint_create_loc_lat" : 18.4588873,
+      "complaint_create_loc_lng" : 73.86560067
+    },
+    "522901" : {
+      "complaint_create_loc_lat" : 18.45632551,
+      "complaint_create_loc_lng" : 73.83055612
+    },
+    "522902" : {
+      "complaint_create_loc_lat" : 18.46877608,
+      "complaint_create_loc_lng" : 73.85090883
+    },
+    "522903" : {
+      "complaint_create_loc_lat" : 18.45623778,
+      "complaint_create_loc_lng" : 73.85928929
+    },
+    "522904" : {
+      "complaint_create_loc_lat" : 18.46133298,
+      "complaint_create_loc_lng" : 73.8590949
+    },
+    "522905" : {
+      "complaint_create_loc_lat" : 18.45584832,
+      "complaint_create_loc_lng" : 73.83177552
+    },
+    "522906" : {
+      "complaint_create_loc_lat" : 18.44510653,
+      "complaint_create_loc_lng" : 73.84136361
+    },
+    "522908" : {
+      "complaint_create_loc_lat" : 18.47552277,
+      "complaint_create_loc_lng" : 73.84165027
+    },
+    "522909" : {
+      "complaint_create_loc_lat" : 18.45392486,
+      "complaint_create_loc_lng" : 73.84219486
+    },
+    "522910" : {
+      "complaint_create_loc_lat" : 18.45507962,
+      "complaint_create_loc_lng" : 73.84904438
+    },
+    "522911" : {
+      "complaint_create_loc_lat" : 18.47124178,
+      "complaint_create_loc_lng" : 73.83281059
+    },
+    "522912" : {
+      "complaint_create_loc_lat" : 18.46814114,
+      "complaint_create_loc_lng" : 73.83962588
+    },
+    "522913" : {
+      "complaint_create_loc_lat" : 18.47352803,
+      "complaint_create_loc_lng" : 73.84803179
+    },
+    "522914" : {
+      "complaint_create_loc_lat" : 18.46901996,
+      "complaint_create_loc_lng" : 73.83185562
+    },
+    "522915" : {
+      "complaint_create_loc_lat" : 18.46246715,
+      "complaint_create_loc_lng" : 73.86536091
+    },
+    "522916" : {
+      "complaint_create_loc_lat" : 18.44470992,
+      "complaint_create_loc_lng" : 73.85686896
+    },
+    "522917" : {
+      "complaint_create_loc_lat" : 18.45602539,
+      "complaint_create_loc_lng" : 73.85807251
+    },
+    "522918" : {
+      "complaint_create_loc_lat" : 18.45780453,
+      "complaint_create_loc_lng" : 73.84384786
+    },
+    "522919" : {
+      "complaint_create_loc_lat" : 18.45922281,
+      "complaint_create_loc_lng" : 73.85328057
+    },
+    "522920" : {
+      "complaint_create_loc_lat" : 18.46063775,
+      "complaint_create_loc_lng" : 73.83633147
+    },
+    "522921" : {
+      "complaint_create_loc_lat" : 18.45674857,
+      "complaint_create_loc_lng" : 73.85334732
+    },
+    "522922" : {
+      "complaint_create_loc_lat" : 18.47638277,
+      "complaint_create_loc_lng" : 73.84485273
+    },
+    "522923" : {
+      "complaint_create_loc_lat" : 18.44867283,
+      "complaint_create_loc_lng" : 73.83481579
+    },
+    "522924" : {
+      "complaint_create_loc_lat" : 18.45816353,
+      "complaint_create_loc_lng" : 73.83274119
+    },
+    "522925" : {
+      "complaint_create_loc_lat" : 18.52330325171106,
+      "complaint_create_loc_lng" : 73.84870572009042
+    },
+    "522926" : {
+      "complaint_create_loc_lat" : 18.45761691,
+      "complaint_create_loc_lng" : 73.83642977
+    },
+    "522927" : {
+      "complaint_create_loc_lat" : 18.45761691,
+      "complaint_create_loc_lng" : 73.83642977
+    },
+    "856862" : {
+      "Citizen_uid" : "CPje7GrVVhZX4N5sasY56ccemOD3",
+      "assigned_cop_ID" : "m0yNWHubAIcBztSFO3v072OQ38J3",
+      "complaint_create_date" : "2020/06/20",
+      "complaint_create_loc_lat" : 18.52308,
+      "complaint_create_loc_lng" : 73.8483517,
+      "complaint_create_time" : "13:03:19",
+      "complaint_id" : 856862,
+      "complaint_solved_date" : "2020/06/20",
+      "complaint_solved_loc_lng" : 18.523128947601236,
+      "complaint_solved_loc_lon" : 73.8483525233475,
+      "complaint_solved_time" : "13:05:26"
+    },
+    "52290001110" : {
+      "complaint_create_loc_lat" : 18.54616058,
+      "complaint_create_loc_lng" : 73.88051321
+    },
+    "522940000810" : {
+      "complaint_create_loc_lat" : 18.59656819,
+      "complaint_create_loc_lng" : 73.83607872
+    }
+  },
+  "police_stations" : {
+    "Alandi Police Station" : {
+      ".priority" : "tekd1xg6cw",
+      "g" : "tekd1xg6cw",
+      "l" : [ 18.67589, 73.898574 ]
+    },
+    "Aundh Police Station" : {
+      ".priority" : "tek3xejpu9",
+      "g" : "tek3xejpu9",
+      "l" : [ 18.562738, 73.813213 ]
+    },
+    "Balgandharv Police Station" : {
+      ".priority" : "tek927y447",
+      "g" : "tek927y447",
+      "l" : [ 18.521939, 73.847448 ]
+    },
+    "Bavdhan Police Station" : {
+      ".priority" : "tek3qguubt",
+      "g" : "tek3qguubt",
+      "l" : [ 18.522422, 73.779742 ]
+    },
+    "Bharati Vidyapeeth Police Station" : {
+      ".priority" : "tek908me65",
+      "g" : "tek908me65",
+      "l" : [ 18.458979, 73.857745 ]
+    },
+    "Bhosari Police Chouki" : {
+      ".priority" : "tek9bw2u9t",
+      "g" : "tek9bw2u9t",
+      "l" : [ 18.624004, 73.851201 ]
+    },
+    "Camp Police Station" : {
+      ".priority" : "tek935feb1",
+      "g" : "tek935feb1",
+      "l" : [ 18.522228, 73.875512 ]
+    },
+    "Chandan Nagar Police Station" : {
+      ".priority" : "tek9d61r7e",
+      "g" : "tek9d61r7e",
+      "l" : [ 18.557169, 73.928872 ]
+    },
+    "Chinchwad Police Station" : {
+      ".priority" : "tek3yzkuts",
+      "g" : "tek3yzkuts",
+      "l" : [ 18.629489, 73.779956 ]
+    },
+    "Deccan Police Station" : {
+      ".priority" : "tek9263j79",
+      "g" : "tek9263j79",
+      "l" : [ 18.514244, 73.840645 ]
+    },
+    "Dehu Road Police Station" : {
+      ".priority" : "tek6m9dx07",
+      "g" : "tek6m9dx07",
+      "l" : [ 18.686217, 73.721708 ]
+    },
+    "Hadapsar Police Station" : {
+      ".priority" : "tek94xchw3",
+      "g" : "tek94xchw3",
+      "l" : [ 18.500385, 73.939631 ]
+    },
+    "Kalewadi Police Chauki" : {
+      ".priority" : "tek3zj5283",
+      "g" : "tek3zj5283",
+      "l" : [ 18.616425, 73.788656 ]
+    },
+    "Kasba Peth Police Station" : {
+      ".priority" : "tek92es3d1",
+      "g" : "tek92es3d1",
+      "l" : [ 18.520468, 73.856028 ]
+    },
+    "Khadki Police Station" : {
+      ".priority" : "tek986hx39",
+      "g" : "tek986hx39",
+      "l" : [ 18.557163, 73.84536 ]
+    },
+    "Koregaon Park Police Station" : {
+      ".priority" : "tek93mcv6n",
+      "g" : "tek93mcv6n",
+      "l" : [ 18.533499, 73.885547 ]
+    },
+    "Kothrud Police Station" : {
+      ".priority" : "tek3r3j2e1",
+      "g" : "tek3r3j2e1",
+      "l" : [ 18.506562, 73.802508 ]
+    },
+    "Nigdi Police Station" : {
+      ".priority" : "tek6ntr4v3",
+      "g" : "tek6ntr4v3",
+      "l" : [ 18.662132, 73.772055 ]
+    },
+    "Pimpri Chinchwad Police Station" : {
+      ".priority" : "tek6p1pyve",
+      "g" : "tek6p1pyve",
+      "l" : [ 18.639481, 73.795059 ]
+    },
+    "Shivajinagar Police Chowky" : {
+      ".priority" : "tek92mrcrn",
+      "g" : "tek92mrcrn",
+      "l" : [ 18.530063, 73.850057 ]
+    },
+    "Sinhgad Road Police Station" : {
+      ".priority" : "tek3pdvtvw",
+      "g" : "tek3pdvtvw",
+      "l" : [ 18.473159, 73.813943 ]
+    },
+    "Swargate Police Station" : {
+      ".priority" : "tek90xyrxz",
+      "g" : "tek90xyrxz",
+      "l" : [ 18.500932, 73.859016 ]
+    },
+    "Talegaon Police Station" : {
+      ".priority" : "tek6s6pv94",
+      "g" : "tek6s6pv94",
+      "l" : [ 18.732646, 73.674019 ]
+    },
+    "Vishrantwadi Police Station" : {
+      ".priority" : "tek995sh6j",
+      "g" : "tek995sh6j",
+      "l" : [ 18.564906, 73.877658 ]
+    },
+    "Wakad Police Station" : {
+      ".priority" : "tek3ye65te",
+      "g" : "tek3ye65te",
+      "l" : [ 18.607338, 73.765193 ]
+    },
+    "Yerwada Police Station" : {
+      ".priority" : "tek9993k2g",
+      "g" : "tek9993k2g",
+      "l" : [ 18.552539, 73.895795 ]
+    }
+  }
+}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:elevation="15dp"
+        android:padding="25dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/txt_complaint_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                android:fontFamily="@font/j"
+                android:text="124051"
+                android:textColor="#000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_complaint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_complaint_no"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/k"
+                android:text="Complaint No."
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_complaint_date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_complaint"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/n"
+                android:text="Created Date :"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_complaint_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/txt_complaint_date1"
+                android:layout_alignParentEnd="true"
+                android:text="2020/03/26"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_complaint_time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_complaint_date1"
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/n"
+                android:text="Created Time :"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_complaint_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/txt_complaint_time1"
+                android:layout_alignParentEnd="true"
+                android:text="21:43:46"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_cop_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_complaint_time2"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/msemi"
+                android:text="Assigned Cop Details"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img_cop_profile1"
+                android:layout_width="144dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/txt_cop_title"
+
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/default_profile"
+
+                />
+
+            <TextView
+                android:id="@+id/cop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_cop_profile1"
+                android:layout_marginTop="10dp"
+
+                android:fontFamily="@font/n"
+                android:text="Name :"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_cop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cop_name"
+
+                android:layout_alignParentRight="true"
+                android:text="Niraj Wagh"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cop_id_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cop_name"
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/n"
+                android:text="ID No. :"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_cop_id_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cop_id_no"
+
+                android:layout_alignParentRight="true"
+                android:text="15421"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cop_phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cop_id_no"
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/n"
+                android:text="Phone"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/cop_phone1"
+
+                android:layout_alignParentRight="true"
+                android:text="8888007943"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+
+
+
+

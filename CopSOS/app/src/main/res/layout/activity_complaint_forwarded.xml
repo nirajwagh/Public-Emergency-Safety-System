@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComplaintForwarded"
+    android:background="@color/colorBackgroundOff"
+    >
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Complaint Forward Reason"
+        android:textSize="23sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+         />
+
+    <EditText
+        android:id="@+id/txt_forward_reason"
+        android:layout_width="316dp"
+        android:layout_height="107dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Reason Here"
+        android:inputType="textMultiLine"
+        android:textColorHint="#101010"
+        android:layout_marginTop="50dp"
+
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/square_edittext"
+        android:padding="10dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_round"
+        android:onClick="SubmitButtonPressed"
+
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+
+        />
+
+    <ImageView
+        android:id="@+id/img_reason"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/txt_forward_reason"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="101dp"
+        android:onClick="uploadImageIconPressed"
+        app:srcCompat="@drawable/camera3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="69dp"
+        android:layout_height="54dp"
+
+
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+         />
+
+    <TextView
+        android:id="@+id/txt_uploading_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_reason"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+
+        android:fontFamily="@font/aa"
+        android:text="Uploading Image..."
+        android:textColor="#000"
+        android:textSize="18sp" />
+</RelativeLayout>

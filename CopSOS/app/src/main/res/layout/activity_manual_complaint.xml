@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundOff"
+    tools:context=".ManualComplaint">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/j"
+        android:text="Manual Complaint"
+
+        android:textColor="#000"
+        android:textSize="25sp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_enter_complaint_id"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/msemi"
+        android:text="Enter Complaint Number:"
+
+
+        android:textColor="#000"
+        android:textSize="20sp"
+
+
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txt_enter_complaint_id"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+
+        android:fontFamily="@font/msemi"
+        android:gravity="center"
+
+        android:hint="Complaint Number"
+        android:inputType="number"
+        android:maxLength="6"
+
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button_round"
+
+        android:fontFamily="@font/msemi"
+        android:onClick="assignComplaintManually"
+        android:text="Assign Complaint"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="17sp" />
+</RelativeLayout>

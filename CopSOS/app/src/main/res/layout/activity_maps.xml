@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/txt_estDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:background="#FFF"
+        android:elevation="10dp"
+        android:fontFamily="@font/mextrabold"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Estimated Distance:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_forward_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="280dp"
+        android:elevation="10dp"
+        android:onClick="forwardCompliantIconPressed"
+        android:src="@drawable/report" />
+
+    <ImageView
+        android:id="@+id/img_refresh_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="220dp"
+        android:elevation="10dp"
+        android:onClick="doRouting"
+        android:src="@drawable/refresh" />
+
+    <ImageView
+        android:id="@+id/img_nav_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="160dp"
+        android:elevation="10dp"
+        android:onClick="mapsNavigationIconPressed"
+        map:srcCompat="@drawable/nav1" />
+
+
+    <LinearLayout
+        android:id="@+id/citizen_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFF"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_user_profile"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/default_profile"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/mextrabold"
+                android:text="Citizen Details :"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/l"
+                android:text="Name"
+                android:textColor="#000"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/i"
+                android:text="Niraj"
+                android:textColor="#4A4545"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/l"
+                android:text="Phone"
+                android:textColor="#000"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/i"
+                android:text="8888007943"
+
+                android:textColor="#4A4545"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/img_call_icon"
+                android:layout_width="51dp"
+                android:layout_height="58dp"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+
+
+                android:contentDescription="TODO"
+                android:onClick="phoneIconPressed"
+                android:src="@drawable/img_call_icon"
+                map:layout_constraintBottom_toBottomOf="parent"
+                map:layout_constraintEnd_toEndOf="parent"
+                map:layout_constraintStart_toStartOf="parent"
+                map:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

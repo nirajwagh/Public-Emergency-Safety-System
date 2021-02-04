@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AF2119"
+    tools:context=".Login"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/mbold"
+        android:gravity="center"
+        android:text="Sign In"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="12dp"
+        app:cardMaxElevation="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#92100B"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/txt_email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                android:backgroundTint="#FFF"
+                android:drawableStart="@drawable/ic_user"
+                android:ems="10"
+                android:hint="Enter Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFF"
+                android:textColorHighlight="#FFF"
+                android:textColorHint="#FFF"
+                android:textColorLink="#FFF"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txt_pass1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_email1"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#FFF"
+                android:drawableStart="@drawable/ic_pass"
+                android:ems="10"
+
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textColor="#FFF"
+                android:textColorHighlight="#FFF"
+                android:textColorHint="#FFF"
+                android:textColorLink="#FFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_pass1"
+android:elevation="10dp"
+                android:layout_marginTop="35dp"
+                android:background="#000"
+                android:fontFamily="@font/msemi"
+                android:onClick="signInButtonPressed"
+                android:selectAllOnFocus="false"
+                android:text="Sign In"
+                android:textColor="#FFF"
+                android:textIsSelectable="false"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_login"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/mbold"
+                android:gravity="center"
+                android:text="-OR-"
+                android:textColor="#FFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:background="#000"
+                android:fontFamily="@font/msemi"
+                android:onClick="registerButtonPressed"
+                android:text="Register Here"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:elevation="10dp"
+                android:layout_marginBottom="2dp"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    </RelativeLayout>

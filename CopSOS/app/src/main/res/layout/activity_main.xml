@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EACC"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp"
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/txt_email1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/mbold"
+        android:gravity="left"
+        android:text="Sign In"
+
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </androidx.cardview.widget.CardView>
+
+    <EditText
+        android:id="@+id/txt_email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_edittext"
+
+        android:drawableStart="@drawable/ic_person_outline_black_24dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHighlight="#FFF"
+        android:textColorHint="#000"
+        android:textColorLink="#FFF"
+        android:textSize="16sp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/txt_pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_email1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_edittext"
+        android:drawableStart="@drawable/ic_password_outline"
+        android:ems="10"
+        android:hint="Enter Password"
+
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHighlight="#FFF"
+        android:textColorHint="#000"
+        android:textColorLink="#FFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_round"
+        android:elevation="10dp"
+        android:fontFamily="@font/msemi"
+        android:onClick="signInButtonPressed"
+
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_register"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/mbold"
+        android:gravity="center"
+        android:text="-OR-"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/msemi"
+        android:onClick="registerButtonPressed"
+        android:text="Register Here"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SOS</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
