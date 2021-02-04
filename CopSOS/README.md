@@ -19,22 +19,22 @@ Firebase realtime database is used for Live location service.
         
   <tr>
   <td>
-  <img src="/Screenshots/loading.png" align="top">
+  <img src="/CopSOS/Screenshots/loading.png" align="top">
   
   Splash screen.
   </td>
   <td>
-  <img src="/Screenshots/Cop%20status.png" align="top">
+  <img src="/CopSOS/Screenshots/Cop%20status.png" align="top">
   
   Home screen.
   </td>
   <td>
-  <img src="/Screenshots/COp%20Online.png" align="top">
+  <img src="/CopSOS/Screenshots/COp%20Online.png" align="top">
   
   Cop Online.
   </td>
   <td>
-  <img src="/Screenshots/new%20complaint%20notification.png" align="top">
+  <img src="/CopSOS/Screenshots/new%20complaint%20notification.png" align="top">
 
   New Complaint.
   </td>
@@ -42,22 +42,22 @@ Firebase realtime database is used for Live location service.
   
   <tr>
   <td>
-  <img src="/Screenshots/live%20tracking.png" align="top">
+  <img src="/CopSOS/Screenshots/live%20tracking.png" align="top">
   
   Live Tracking.
   </td>
   <td>
-  <img src="/Screenshots/citizen%20found%20notification.png" align="top">
+  <img src="/CopSOS/Screenshots/citizen%20found%20notification.png" align="top">
   
   Citizen Found Notification.
   </td>
   <td>
-  <img src="/Screenshots/complaint%20solved.png" align="top">
+  <img src="/CopSOS/Screenshots/complaint%20solved.png" align="top">
   
   Complaint Solved.
   </td>
   <td>
-  <img src="/Screenshots/navigation.png" align="top">
+  <img src="/CopSOS/Screenshots/navigation.png" align="top">
   
   Navigation for Citizen Location.
   </td>
@@ -65,44 +65,44 @@ Firebase realtime database is used for Live location service.
 
   <tr>
   <td>
-  <img src="/Screenshots/compliant%20canceldd.png" align="top">
+  <img src="/CopSOS/Screenshots/compliant%20canceldd.png" align="top">
   
   Complaint Cancelled.
   </td>
   <td>
-  <img src="/Screenshots/cop%20profile.png" align="top">
+  <img src="/CopSOS/Screenshots/cop%20profile.png" align="top">
   Cop Profile
   
   </td>
   <td>
-  <img src="/Screenshots/cop%20reported.png" align="top">
+  <img src="/CopSOS/Screenshots/cop%20reported.png" align="top">
   
   Cop Reported
   </td>
   <td>
-  <img src="/Screenshots/reason%20pic.png" align="top">
+  <img src="/CopSOS/Screenshots/reason%20pic.png" align="top">
   
   Reported reason Photo
   </td>
   
   <tr>
   <td>
-  <img src="/Screenshots/forward%20comlaint.png" align="top">
+  <img src="/CopSOS/Screenshots/forward%20comlaint.png" align="top">
   
   Forward Complaint
   </td>
   <td>
-  <img src="/Screenshots/reason%20for%20forward.png" align="top">
+  <img src="/CopSOS/Screenshots/reason%20for%20forward.png" align="top">
   
   Reason For Forward
   </td>
   <td>
-  <img src="/Screenshots/manual%20complaint.png" align="top">
+  <img src="/CopSOS/Screenshots/manual%20complaint.png" align="top">
   
   Manual Complaint
   </td>
   <td>
-  <img src="/Screenshots/Signin.png" align="top">
+  <img src="/CopSOS/Screenshots/Signin.png" align="top">
   
   Sign In
 
