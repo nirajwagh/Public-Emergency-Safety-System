@@ -12,28 +12,75 @@ The estimated time for the cop to reach the citizen will be shown in the citizen
 
 Firebase realtime database is used for Live location service.
 
-Screenshots:
+## Screenshots
+<table>
+        
+  <tr>
+  <td>
+  <img src="/SOS/Screenshots/loading.png" align="top">
+  
+  Splash screen.
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/home.png" align="top">
+  
+  Home screen
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/finding%20cop.png" align="top">
+  
+  Finding Cop
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/live%20tracking.png" align="top">
 
-1. Home screen
+  Live Tracking
+  </td>
+  </tr>
+  
+  <tr>
+  <td>
+  <img src="/SOS/Screenshots/solved.png" align="top">
+  
+  Complaint Solved
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/reporting%20cop.png" align="top">
+  
+  Reporting the Cop
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/report.png" align="top">
+  
+  Finding Nearest police station
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/previous%20complaints.png" align="top">
+  
+  Previous Complaints
+  </td>
+  </tr>
 
-![Home](https://github.com/nirajwagh/SOS/blob/master/Screenshots/home.png)
-
-2. Finding nearest cop:
-
-![finding nearest cop](https://github.com/nirajwagh/SOS/blob/master/Screenshots/finding%20nearest%20cop.png)
-
-3. Live tracking of cop location.
-
-![Live Tracking](https://github.com/nirajwagh/SOS/blob/master/Screenshots/live%20racking.png)
-
-4. Reporting the cop to nearest police station.
-
-![Reporting the cop to nearest police station](https://github.com/nirajwagh/SOS/blob/master/Screenshots/report%20to%20nearest%20police%20station.png)
-
-5. Complaint Solved.
-
-![Complaint Solved](https://github.com/nirajwagh/SOS/blob/master/Screenshots/solved%20complaint.png)
-
-
-"# SOS" 
-"# SOS" 
+  <tr>
+  <td>
+  <img src="/SOS/Screenshots/reporting%20cop.png" align="top">
+  
+  Reporting Cop
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/sign%20in.png" align="top">
+  Sign In
+  
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/register.png" align="top">
+  
+  Register
+  </td>
+  <td>
+  <img src="/SOS/Screenshots/navbar.png" align="top">
+  
+  Navbar
+  </td>
+  
+  <tr>
