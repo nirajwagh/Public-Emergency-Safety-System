@@ -83,7 +83,7 @@ Firebase realtime database is used for Live location service.
   Navbar
   </td>
   
-  <tr>
+  </tr>
         
  </table>
  
