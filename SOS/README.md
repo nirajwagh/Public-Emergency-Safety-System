@@ -1,6 +1,6 @@
 # SOS
 
-Apk Download: https://github.com/nirajwagh/SOS/raw/master/Apk%20Download/SOS.apk
+Apk Download: https://github.com/nirajwagh/Public-Emergency-Safety-System/raw/main/SOS/Apk%20Download/SOS.apk
 
 An SOS demo app for requesting emergency services when in an emergency.
 
