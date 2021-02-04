@@ -1,0 +1,99 @@
+
+body{
+  background-color:#1A1A1D;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+html,body, .mywrapper{
+  height:100%;
+}
+.mywrapper{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.box{
+  color:white;
+  
+}
+
+h1{
+  float:left;
+  font-size:50px;
+  margin-bottom:20px;
+  padding-bottom:7px;
+  border-bottom:5px solid #07eaad;
+}
+
+.textbox{
+
+  width:100%;
+  margin:10px 0;
+  font-size:20px;
+  padding:5px 0;
+  border-bottom: 1px solid #07eaad;
+
+}
+
+input{
+  border:none;
+  background:none;
+  outline:none;
+  color:white;
+}
+
+.btn{
+  width:100%;
+  background:none;
+  color:white;
+  border:2px solid #07eaad;
+  padding:5px;
+  font-size:20px;
+  margin:10px 0;
+}
+
+.btn:hover{
+  cursor:pointer;
+  background-color: #07eaad;
+}
+
+
+
+
+li{
+  padding:1px 10px;
+  color:white;
+ }
+ .pcs{
+  padding:2px 5px;
+  color:red;
+  font-size: 20px;
+ }
+
+a{
+  color: #1A1A1D !important;
+}
+
+.dropdown-item:hover{
+
+  color: aliceblue !important;
+}
+
+.nav-link{
+  width: 100px;
+  text-align: center;
+}
+
+.nav-link:hover{
+    background-color: rgb(44, 43, 43);
+    border-radius: 20px;
+    color: antiquewhite !important;
+    
+}
+
+#icon{
+  border: none !important;
+  font-weight: 1000 !important;
+  color: aliceblue !important;
+}

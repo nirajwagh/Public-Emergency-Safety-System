@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.box{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #212529;
+}
+
+.wrapper{
+  background-color: rgb(192, 192, 192);
+  display: flex;
+  padding: 25px;
+  margin: 35px;
+  height: 200px;
+  width: 220px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.wrapper:hover {
+  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+}
+
+.comp_id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(24, 24, 24);
+  font-family: 'Baloo Bhai 2', cursive;
+  
+}
+
+#station_name, #admin_name{
+    color: blanchedalmond !important;
+    font-weight: 800;
+    width: 40%;
+    margin-left: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+}
+
+
+li{
+    padding:1px 10px;
+    color:white;
+   }
+   .pcs{
+    padding:2px 5px;
+    color:red;
+    font-size: 20px;
+   }
+  
+  a{
+    color: #1A1A1D !important;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover{
+  
+    color: aliceblue !important;
+  }
+  
+  .nav-link{
+    width: 100px;
+    text-align: center;
+  }
+  
+  .nav-link:hover{
+      background-color: rgb(44, 43, 43);
+      border-radius: 20px;
+      color: antiquewhite !important;
+      
+  }
+  
+  #icon{
+    border: none !important;
+    font-weight: 1000 !important;
+    color: aliceblue !important;
+  }
+
+  

@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#map{
+    
+
+         width: 100%;
+        height: 100vh;
+        background-color: grey;
+}
+
+li{
+    padding:1px 10px;
+    color:white;
+   }
+   .pcs{
+    padding:2px 5px;
+    color:red;
+    font-size: 20px;
+   }
+  
+  a{
+    color: #1A1A1D !important;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover{
+  
+    color: aliceblue !important;
+  }
+  
+  .nav-link{
+    width: 100px;
+    text-align: center;
+  }
+  
+  .nav-link:hover{
+      background-color: rgb(44, 43, 43);
+      border-radius: 20px;
+      color: antiquewhite !important;
+      
+  }
+  
+  #icon{
+    border: none !important;
+    font-weight: 1000 !important;
+    color: aliceblue !important;
+  }
+
+  #admin_name{
+    margin-left: 30px;
+  }
+
+  #complaints, #logout{
+    color: darkkhaki !important;
+  }
+
+  #station_name, #admin_name{
+    color: blanchedalmond !important;
+    font-weight: 800;
+    width: 40%;
+    margin-left: 20px;
+    
+    font-size: 20px;
+}

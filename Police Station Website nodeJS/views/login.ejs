@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Admin Login</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #07eaad; opacity:0.88;">
+      <a id="icon" class="navbar-brand pcs active" href="/">SOS</a>
+      
+      </div>
+    </nav>
+
+
+<div class="mywrapper">
+  <div class="box">
+      <h1>Login</h1>
+
+      <form id="login_form">
+        <div class="textbox">
+          <input type="text" name="username" placeholder="Email ID" required oninvalid="this.setCustomValidity('Enter User Name Here')"
+    oninput="this.setCustomValidity('')">
+          <i class="fas fa-user"></i>
+        </div>
+
+        <div class="textbox">
+          <input type="password" name="pass" placeholder="Password" required >
+          <i class="fas fa-key"></i>
+        </div>
+
+        <input type="submit" name="btn" class="btn" value="Sign In">
+
+    </form>
+
+    </div>
+</div>
+
+<!-- Connecting to the firebase project. -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
+
+
+  
+
+<!-- *************************************Step 1: Web app's Firebase configuration*************************
+        
+    paste the coped SDK config here. It contains apikey, authDomain, databaseURL etc.-->
+
+    
+<!--*********************************************************************************************-->
+  
+<script> 
+
+
+  const auth=firebase.auth();
+
+</script>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/auth.js"></script>
+  
+  </body>
+</html>
