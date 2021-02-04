@@ -88,9 +88,9 @@ Firebase realtime database is used for Live location service.
  </table>
  
  
- SOS
+# Instructions
 
-ERROR #1
+### ERROR #1
 
 		A problem occurred evaluating project ':app'.
 		> C:\...\apikey.properties (The system cannot find the file specified)
@@ -103,7 +103,7 @@ ERROR #1
  Here replace paste-your-google-maps-api-key-here with your google maps api key. Save the file  
 
 
- ERROR #2
+### ERROR #2
 
 		Execution failed for task ':app:processDebugGoogleServices'.
 		> File google-services.json is missing. The Google Services Plugin cannot function without it. 
@@ -118,7 +118,7 @@ ERROR #1
  Else if this is your first project then Create a new project and connect your android project to this Firebase console project.
 
 
-Enable Firebase Realtime Database.
+### Enable Firebase Realtime Database.
 
 (Ignore step 1,2,3,4 if already done with the COP-SOS app)
 1. Go to your Firebase Console and under Realtime Database, select "create Database".
@@ -129,7 +129,7 @@ Enable Firebase Realtime Database.
 6. Select "Add the Realtime Database SDK to your app". Click on "accept changes" in the dialog box.
 
 
-Register and Login users using Firebase Authentiaction
+### Register and Login users using Firebase Authentiaction
 
 (Ignore step 1,2,3 if already done with the COP-SOS app)
 1. Go to your Firebase console and choose your project.
@@ -139,7 +139,7 @@ Register and Login users using Firebase Authentiaction
 5. Then select the "Add the Firebase Authentication SDK to your app". Click on "accept changes" in the dialog box.
 
 
-Uploading Profile images and other images.
+### Uploading Profile images and other images.
 
 (Ignore step 1,2,3 if already done with the COP-SOS app)
 1. Go to firebase console and under "storage" click on "get started".
@@ -147,7 +147,7 @@ Uploading Profile images and other images.
 3. Now you will be able to store images on the Firebase cloud service.
 4. Go to "profile" section in the app and try uploading profile pic.
 
-Adding Google Maps API KEY
+### Adding Google Maps API KEY
 
 1. Go To "/app/src/debug/res/values/google_maps_api.xml" and replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with you API Key.
 2. Go To "/app/src/release/res/values/google_maps_api.xml" and replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with you API Key.
