@@ -75,8 +75,8 @@ After the cop is assigned to the citizen, the cop can view the live location of 
 ## Technologies, APIs, and Libraries used
 
 1. Java for Andriod applications development.
-2. Google Firebase for Authentication, Real-time database, and storage.
+2. [Google Firebase](https://firebase.google.com/) for Authentication, Real-time database, and storage.
 3. Google Firebase Real-time database REST API for fetching database data.
-4. Google maps API for Live location and Routing using Directions API.
-5. Lottie Animations library for Animations.
-6. Glide Library for fetching images from URL.
+4. [Google maps API](https://developers.google.com/maps/documentation) for Live location and Routing using Directions API.
+5. [Lottie Animations](https://lottiefiles.com/) library for Animations.
+6. [Glide Library](https://github.com/bumptech/glide) for fetching images from URL.
