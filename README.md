@@ -3,7 +3,8 @@
 
 [Short Demo Video](https://youtube.com) <br>
 
-Detailed Project video to be uploaded soon...<br><br>
+Detailed Project video to be uploaded soon...<br>
+## Introduction
 A citizen can call a nearby cop by pressing the SOS button and the current location of the citizen will be used to search the nearest cop in the database.
 Live location of all on-duty cops will be continuously updated in the Firebase database.<br><br>
 After the cop is assigned to the citizen, the cop can view the live location of the citizen along with his/her name and phone number. The cop can also use the GPS Navigation button to get directions to the citizen's location with the help of the google maps app.
