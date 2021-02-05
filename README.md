@@ -83,6 +83,7 @@ After the cop is assigned to the citizen, the cop can view the live location of 
 4. [Google maps API](https://developers.google.com/maps/documentation) for Live location and Routing using Directions API.
 5. [Lottie Animations](https://lottiefiles.com/) library for Animations.
 6. [Glide Library](https://github.com/bumptech/glide) for fetching images from URL.
+7. Admin website Server: NodeJS server.
 
 ## LICENSE
 
