@@ -1,7 +1,7 @@
 # An SOS system for calling nearby cops using the android app.
 [Detailed Medium Article on the Project](https://google.com) <br>
 
-[Short Demo Video](https://youtube.com) <br>
+[Short Demo Video](https://youtu.be/b6CsQJGP6uM) <br>
 
 Detailed Project video to be uploaded soon...<br>
 ## Introduction
