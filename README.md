@@ -1,5 +1,5 @@
 # An SOS system for calling nearby cops using the android app.
-[Detailed Medium Article on the Project](https://google.com) <br>
+[Detailed Medium Article on the Project](https://medium.com/@iamnirajwagh/public-emergency-safety-system-be-cse-it-final-year-project-8de0795a03bf) <br>
 
 [Short Demo Video](https://youtu.be/b6CsQJGP6uM) <br>
 
